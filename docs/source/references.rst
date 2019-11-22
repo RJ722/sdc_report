@@ -32,7 +32,7 @@ References
 
 - A. Bacha, C. Bauman, R. Faruque, M. Fleming, C. Terwelp, C. Reinholtz, D.
   Hong, A. Wicks, T. Alberi, D. Anderson, S. Cacciola, P. Currier, A. Dalton, J.
-  Farmer, J. Hurdus, S. Kimmel, P. King, A. Taylor, D. Van Covern, , and M.
+  Farmer, J. Hurdus, S. Kimmel, P. King, A. Taylor, D. Van Covern, and M.
   Webster. Odin: team victortango’s entry in the darpa urban challenge. Journal of
   Field Robotics, vol. 25, no. 8, 2008.
 
@@ -45,10 +45,10 @@ References
   Transit Systems, Paris, France, 2011.
 
 - Taxonomy and definitions for terms related to driving automation systems for
-  on-road motor vehi- cles”. SAE International, 2016.
+  on-road motor vehicles”. SAE International, 2016.
 
 - R. Labayrade, J. Douret, and D. Aubert. A multi-model lane detector that
-  handles road singulari- ties. In Proceedings of the Intelligent Transportation
+  handles road singularities. In Proceedings of the Intelligent Transportation
   Systems Conference, ITSC’06, Toronto, ON, Canada, 2006.
 
 - X. Chen, K. Kundu, Z. Zhang, H. Ma, S. Fidler, and R. Urtasun. Monocular 3d
