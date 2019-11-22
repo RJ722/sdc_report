@@ -62,15 +62,39 @@ the maintainers of these projects:
 
 (Please note that this list is sorted alphabetically)
 
-* Keras
+* **Keras** is a high-level neural networks API, written in Python and
+  capable of running on top of TensorFlow, CNTK, or Theano. It was developed
+  with a focus on enabling fast experimentation.
 
 .. raw:: latex
 
-   \begin{itemize}
-      \item \LaTeX 
-   \end{itemize}
+    \begin{itemize}
+        \item \textbf{\LaTeX} is a high-quality typesetting system. It includes
+        features designed for the production of technical and scientific
+        documentation. This report was typeset and compiled using the
+        \texttt{pdflatex} compiler. However, the markup was first written in
+        reStructuredText, and later transpiled using \texttt{sphinx}.
+    \end{itemize}
 
-* Python
-* Sphinx
-* TensorFlow
-* Visual Studio Code
+
+* **OpenCV** (Open Source Computer Vision Library: http://opencv.org) is
+  an open-source BSD-licensed library that includes several hundreds of
+  computer vision algorithms.
+
+* **Python** is an interpreted, high-level, general-purpose programming
+  language. Python's design philosophy emphasizes code readability with its
+  notable use of significant whitespace.
+
+* **Sphinx** is a tool that makes it easy to create intelligent and beautiful
+  documentation for Python projects. Sphinx uses reStructuredText as its markup
+  language.
+
+* **TensorFlow** is an end-to-end open source platform for machine learning. It
+  has a comprehensive, flexible ecosystem of tools, libraries and community
+  resources that lets researchers push the state-of-the-art in ML and
+  developers easily build and deploy ML powered applications.
+
+* **Visual Studio Code** is a code editor redefined and optimized for building
+  and debugging modern web and cloud applications. It includes support for
+  debugging, embedded Git control and GitHub, syntax highlighting, intelligent
+  code completion, snippets, and code refactoring.

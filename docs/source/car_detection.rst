@@ -236,9 +236,11 @@ Then, as we continue to move my camera both closer and farther away from the
 object/marker, I can apply the triangle similarity to determine the distance of
 the object to the camera, :math:`D'`:
 
-..math::
+.. math::
 
     D' = \frac{W \times F}{P}
+
+or, in Python:
 
 ::
 
@@ -260,3 +262,26 @@ calibrate and compute the focal length. To do this, we need to know:
 Note that the height could also be utilized, but for the sake of brevity and
 simplicity, we have only used width here.
 
+Also, it's worth noting that what we are doing is not **true** camera
+calibration. True camera calibration involves the intrinsic parameters of the
+camera, such as:
+
+* *Focal length*: The focal length in pixels is stored in the 2x1 vector ``fc``.
+
+* *Principal point*: The principal point coordinates are stored in the 2x1
+  vector ``cc``.
+
+* *Skew coefficient*: The skew coefficient defining the angle between the ``x``
+  and ``y`` pixel axes is stored in the scalar ``alpha_c``.
+
+* *Distortions*: The image distortion coefficients (radial and tangential
+  distortions) are stored in the 5x1 vector ``kc``.
+
+(From Camera Calibration Toolbox for Matlab)
+
+Results
+^^^^^^^
+
+.. figure:: img/distance_estimation.jpg
+
+   Distance estimation using triangle similarity

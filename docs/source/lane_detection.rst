@@ -36,14 +36,7 @@ We applied this distortion correction to the test image using the
 (appreciating the effect of calibration is easier on the borders of the
 image):
 
-.. figure:: img/calibration_before.jpg
-   :scale: 50%
-
-   Chessboard image before calibration
-
-.. figure:: img/calibration_after.jpg
-
-   Chessboard image after calibration
+.. figure:: img/chessboard-comparison.png
 
 Pipeline
 ~~~~~~~~

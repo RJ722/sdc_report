@@ -10,11 +10,13 @@ Image Based Maneuvering of Autonomous Vehicles
    :maxdepth: 2
    :caption: Contents:
 
+   declaration
+   ack
    abstract
    introduction
    history
    lane_detection
    car_detection
-   distance_estimation
    ethics
+   conclusion
    references
