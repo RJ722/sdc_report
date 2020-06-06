@@ -29,7 +29,7 @@ hand was broken down into multiple pieces and modeled with following constaints:
 
 * Vehicle of Interest: *E-rickshaw* - These rickshaws have a M.S (Mild Steel)
   tubular Chassis, consist of 3 wheels with a differential mechanism at rear
-  wheels, and are completely batter operated. The motor is brushless DC motor
+  wheels, and are completely battery operated. The motor is brushless DC motor
   manufactured mostly in India and China. The electrical system used in Indian
   version is 48V.
 
@@ -42,7 +42,7 @@ hand was broken down into multiple pieces and modeled with following constaints:
   shall be available at all times.
 
 * The optimum path connecting the source with the destination is already known
-  apriory.
+  apriori.
 
 * Aimed towards Indian market
 

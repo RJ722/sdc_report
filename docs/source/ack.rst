@@ -24,4 +24,7 @@
     a Creative Commons Attribution 4.0 International license, and are used
     with permission (except where otherwise noted).
 
+
+    \afterpage{\blankpage}
+
     \clearpage

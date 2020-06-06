@@ -121,7 +121,9 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    'preamble': r'''
+\usepackage{afterpage}
+''',
 
     # Latex figure (float) alignment
     #

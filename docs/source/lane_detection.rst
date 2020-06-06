@@ -47,13 +47,7 @@ Indeed, if we want to study the *geometry* of the road, we have to be
 sure that the images we’re processing do not present distortions. Here’s
 the result of distortion-correction on one of the test images:
 
-.. figure:: img/test_calibration_before.jpg
-
-   Test image before calibration
-
-.. figure:: img/test_calibration_after.jpg
-
-   Test image after calibration
+.. figure:: img/lane_comparison.png
 
 In this case appreciating the result is slightly harder, but we can
 notice, nonetheless, some difference on both, the extreme left and extreme
@@ -83,7 +77,7 @@ Perspective Transform
 ^^^^^^^^^^^^^^^^^^^^^
 
 Code relating to warping between the two perspective can be found
-``perspective_utils.py>``. The function ``calibration_utils.birdeye()`` takes as
+``perspective_utils.py``. The function ``calibration_utils.birdeye()`` takes as
 input the frame (either color or binary) and returns the bird’s-eye view of the
 scene. In order to perform the perspective warping, we need to map 4 points in
 the original space and 4 points in the warped space.
